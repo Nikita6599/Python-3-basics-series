@@ -40,6 +40,10 @@ print(x)
 
 print(x[5])
 
+# directly access the last element
+
+print(x[-1])
+
 # well we can also search for this index, like so:
 
 print(x.index(1))
@@ -55,6 +59,10 @@ print(x.count(1))
 # we can also sort the list:
 x.sort()
 
+print(x)
+
+# reverse sort
+x.sort(reverse=True)
 print(x)
 
 
